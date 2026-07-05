@@ -651,6 +651,20 @@ nav a:hover::after { width: 70%; }
   font-style: italic;
 }
 
+.form-status-note {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  color: #4ade80;
+  opacity: 0.85;
+}
+
+.form-status-note i {
+  font-size: 0.9rem;
+}
+
 .contact-availability {
   display: flex;
   align-items: center;
